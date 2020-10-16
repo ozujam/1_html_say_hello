@@ -5,7 +5,7 @@ const { JSDOM } = require('jsdom');
 chai.use(require('chai-dom'));
 require('jsdom-global')();
 
-describe('HTML', () => {
+describe('index.html', () => {
 
     beforeEach((done) => {
       JSDOM.fromFile('index.html')
@@ -15,10 +15,14 @@ describe('HTML', () => {
       .then(done, done);
     });
   
-    describe('Heading', () => {
-      it("DOM should have a h1 element that saids Hello World!'", () => {
-        let element = document.getElementById('hello')
-        expect(element).to.have.text('hello world')
+    describe("Level 1 heading", () => {
+      it("h1 element should exists.", () => {  
+        let element = document.querySelector('h1')
+        expect(element).to.exist
+      })
+      it("h1 element should say 'Hello World!'", () => {
+        let element = document.querySelector('h1')
+        expect(element).to.have.text("Hello World!")
       })
     })
    
