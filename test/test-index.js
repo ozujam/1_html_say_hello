@@ -25,5 +25,17 @@ describe('index.html', () => {
         expect(element).to.have.text("Hello World!")
       })
     })
+
+    describe("Level 2 heading", () => {
+      it("h2 element should exists.", () => {  
+        let element = document.querySelector('h2')
+        expect(element).to.exist
+      })
+      it("h2 element should say 'Hello World!'", () => {
+        let element = document.querySelector('h2')
+        expect(element).to.have.text("Hello World!")
+      })
+    })
+    
    
   })
