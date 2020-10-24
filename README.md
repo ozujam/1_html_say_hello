@@ -30,8 +30,8 @@ The least important heading: `<h6>`
 First, you'll start by building a simple web page using HTML.
 
 Create three HTML heading tags:
- - Create a `<h1>` tag that contains a text that says “Hello World!
- - Create a `<h2>` tag that contains a text that says “Hello World!
- - Create a `<h3>` tag that contains a text that says “Hello World!
+ - Create a `<h1>` tag that contains a text that says “Hello World!"
+ - Create a `<h2>` tag that contains a text that says “Hello World!"
+ - Create a `<h3>` tag that contains a text that says “Hello World!"
 
 You **must** pass **three tests** before submitting it.
