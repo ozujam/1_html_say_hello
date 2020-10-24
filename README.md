@@ -1,4 +1,4 @@
-# Lab 1 say hello 
+# Lab 1, Say Hello 
 
 ### Artical Section
 
@@ -15,6 +15,10 @@ For example:
 The HyperText part of HTML existed since the early days of the web. Pages are static documents.
 
 **HTML headings** are **titles** or **subtitles** that display on a webpage.
+
+```
+<h1>Hello World!</h1>
+```
 
 HTML headings are defined with the `<h1>` to `<h6>` tags.
 
