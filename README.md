@@ -1,6 +1,6 @@
 # Lab 1 say hello 
 
-### Artical Section
+## Artical Section
 
 Introduction to Basic HTML5
 
