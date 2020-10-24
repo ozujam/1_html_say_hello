@@ -10,7 +10,7 @@ Introduction to Basic HTML5
 
 For example:
 
-![HTML Element](/element.png)
+![HTML Element](/images/element.png)
 
 The HyperText part of HTML existed since the early days of the web. Pages are static documents.
 
