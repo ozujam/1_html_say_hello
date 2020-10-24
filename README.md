@@ -1,6 +1,6 @@
 # Lab 1 say hello 
 
-## Artical Section
+### Artical Section
 
 Introduction to Basic HTML5
 
@@ -21,7 +21,7 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 The most important heading: `<h1>`
 The least important heading: `<h6>`
 
-## DIY Section
+### DIY Section
 
 First, you'll start by building a simple web page using HTML.
 
