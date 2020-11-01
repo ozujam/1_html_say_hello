@@ -18,7 +18,6 @@ describe('index.html', () => {
     describe("Level 1 heading", () => {
       it("h1 tag should exists", () => {  
         let element = document.querySelector('h1')
-        er
       })
       it("h1 tag should say 'Hello World!'", () => {
         let element = document.querySelector('h1')
