@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
