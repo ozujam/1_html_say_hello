@@ -18,6 +18,7 @@ describe('index.html', () => {
     describe("Level 1 heading", () => {
       it("h1 tag should exists", () => {  
         let element = document.querySelector('h1')
+        expect(element).to.exist
       })
       it("h1 tag should say 'Hello World!'", () => {
         let element = document.querySelector('h1')
